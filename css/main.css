@@ -2,3 +2,22 @@ body {
   background-image: url('../pics/background.jpg');
   background-size: contain;
 }
+img {
+  height:200px
+}
+.container {
+  max-width: 800px;
+}
+
+#teams-row-1, #teams-row-2 {
+  justify-content:space-between;
+  display:flex;
+  align-items: center;
+}
+
+#teams-row-1 .top {
+  align-self:flex-end;
+}
+#teams-row-2 .bottom {
+  align-self:flex-start;
+}
