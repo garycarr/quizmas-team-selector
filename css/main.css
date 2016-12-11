@@ -1,0 +1,11 @@
+body {
+  background-image: url('pics/gang.jpg');
+  background-size: contain;
+},
+.space {
+  width:200px;
+},
+.title {
+  background: white;
+  width: 500px;
+}
