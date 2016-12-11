@@ -5,9 +5,15 @@ body {
 img {
   height:200px
 }
+
+h1 {
+  color:red;
+}
+
 .container {
   max-width: 800px;
 }
+
 
 #teams-row-1, #teams-row-2 {
   justify-content:space-between;
@@ -20,4 +26,9 @@ img {
 }
 #teams-row-2 .bottom {
   align-self:flex-start;
+}
+
+#enjoy p {
+  color:red;
+  font-size:40px;
 }
